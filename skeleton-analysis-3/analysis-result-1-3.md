@@ -16,7 +16,7 @@ description: 완료된 달리기 분석 각도를 요청하는 API입니다.
 
 **응답(json)**
 
-<table><thead><tr><th width="134">Name</th><th width="86">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>RightHip</code></td><td>list</td><td>2차원 리스트. 시간에 따오의 각도 변화. [인식 프레임 수, 3]의 사이즈를 가짐. 3은 각 x축 각도, y축 각도, z축 각도임.</td></tr><tr><td><code>LeftHip</code></td><td>list</td><td>2차원 리스트. 시간에 따른 골반의 각도 변화. [인식 프레임 수, 3]의 사이즈를 가짐. 3은 각 x축 각도, y축 각도, z축 각도임.</td></tr><tr><td><code>RightKnee</code></td><td>list</td><td>2차원 리스트. 시간에 따른 어깨 라인의 각도 변화. [인식 프레임 수, 3]의 사이즈를 가짐. 3은 각 x축 각도, y축 각도, z축 각도임.</td></tr><tr><td><code>LeftKnee</code></td><td>list</td><td>2차원 리스트. 시간에 따른 어깨 라인의 각도 변화. [인식 프레임 수, 3]의 사이즈를 가짐. 3은 각 x축 각도, y축 각도, z축 각도임.</td></tr></tbody></table>
+<table><thead><tr><th width="134">Name</th><th width="86">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>RightHip</code></td><td>list</td><td>2차원 리스트. 시간에 따른 오른 힙의 각도 변화. [인식 프레임 수, 3]의 사이즈를 가짐. 3은 각 x축 각도, y축 각도, z축 각도임</td></tr><tr><td><code>LeftHip</code></td><td>list</td><td>2차원 리스트. 시간에 따른 왼 힙의 각도 변화. [인식 프레임 수, 3]의 사이즈를 가짐. 3은 각 x축 각도, y축 각도, z축 각도임.</td></tr><tr><td><code>RightKnee</code></td><td>list</td><td>2차원 리스트. 시간에 따른 오른 무릎의 각도 변화. [인식 프레임 수, 3]의 사이즈를 가짐. 3은 각 x축 각도, y축 각도, z축 각도임.</td></tr><tr><td><code>LeftKnee</code></td><td>list</td><td>2차원 리스트. 시간에 따른 왼 무릎의 각도 변화. [인식 프레임 수, 3]의 사이즈를 가짐. 3은 각 x축 각도, y축 각도, z축 각도임.</td></tr></tbody></table>
 
 **요청 예시**
 

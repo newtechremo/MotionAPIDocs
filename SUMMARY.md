@@ -10,6 +10,8 @@
   * [자유 모션 분석 그래프 요청](free-motion-analysis/graph.md)
 * [신체 체형 치수 분석 API](size-analysis/README.md)
   * [이미지 체형 치수 분석 요청](size-analysis/analysis-request.md)
+* [세그멘테이션 API](seg-analysis/README.md)
+  * [이미지 세그멘테이션 분석 요청](seg-analysis/analysis-request.md)
 * [골격 분석 API](skeleton-analysis/README.md)
   * [이미지 골격 분석 요청](skeleton-analysis/analysis-request.md)
 * [골프 분석 API](golf-analysis/README.md)
